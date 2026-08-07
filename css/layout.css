@@ -1,1 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    min-height:100vh;
+
+    overflow-x:hidden;
+
+}
+
+.app{
+
+    display:flex;
+
+    min-height:100vh;
+
+}
+
+.main{
+
+    flex:1;
+
+    padding:32px;
+
+}
